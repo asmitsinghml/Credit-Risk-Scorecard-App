@@ -25,21 +25,21 @@ The model follows the industry-standard Credit Risk Modelling workflow used in B
 
 ```
 Raw Customer Data
-        ↓
+        
 Data Preprocessing
-        ↓
+        
 WOE Transformation
-        ↓
+        
 Logistic Regression Model
         ↓
 Probability of Default (PD)
-        ↓
+        
 Score Scaling
-        ↓
+        
 Credit Score Generation
-        ↓
+        
 Risk Classification
-        ↓
+        
 Final Credit Decision
 ```
 
@@ -82,18 +82,18 @@ The scorecard model follows the standard Credit Risk Modelling framework:
 ```
 scorecard_app/
 
-│── app.py
-│── predict.py
+|--app.py
+│-- predict.py
 │
-│── model.pkl
-│── scorecard.pkl
-│── coef_df.pkl
-│── config.pkl
-│── woe_transformers.pkl
+│-- model.pkl
+│-- scorecard.pkl
+│-- coef_df.pkl
+│-- config.pkl
+│-- woe_transformers.pkl
 │
-│── requirements.txt
-│── style.css
-│── README.md
+│-- requirements.txt
+│-- style.css
+│-- README.md
 ```
 
 ---
