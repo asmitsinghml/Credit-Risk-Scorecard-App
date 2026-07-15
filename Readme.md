@@ -31,7 +31,7 @@ Data Preprocessing
 WOE Transformation
         
 Logistic Regression Model
-        ↓
+        
 Probability of Default (PD)
         
 Score Scaling
